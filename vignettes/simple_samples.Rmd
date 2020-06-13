@@ -1,0 +1,60 @@
+---
+title: "Introduction to the r2dictionary R Package"
+author: "O.N Obianom"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Define with the r2dictionary package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+Despite the predominant use of R for data manipulation and various robust statistical calculations, in recent years, more people from various disciplines are beginning to use R for other purposes. A critical milestone that has enabled large influx of users in the R community is the development of the Tidyverse family of packages and Rmarkdown. With the latter, one can write all kinds of documents and produce output in formats such html and pdf very easily. In doing this seemlessly, further tools are needed for such users to easily and freely write in R for all kinds of purposes. The r2dictionary introduces a means for users to directly search for definitions of terms within the R environment.
+
+Below is an example to demonstrate how the r2dictionary package can be used to retrieve definition of words
+
+## Attach the r2dictionary package
+
+First, attach the package to load the dictionary
+
+```{r}
+
+library("r2dictionary")
+
+```
+
+
+## Request for the definition of the term pharmacokinetics
+
+Second, call the define or definition or meaning function to retrieve the definition of the term
+
+
+```{r eval=FALSE}
+
+define("pharmacokinetics")
+#or
+definition("pharmacokinetics")
+#or
+meaning("pharmacokinetics")
+
+```
+
+## Alternative, you may use the addin option
+
+Select a word in a currently opened file. Go to the addins dropdown in RStudio and select "Define selected text"
+
+```{r eval=FALSE}
+
+defineSelected()
+#or
+defineSel()
+
+```

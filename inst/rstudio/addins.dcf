@@ -1,0 +1,4 @@
+Name: Define Selected Text
+Description: Fetch the definition of the selected word 
+Binding: defineSelected
+Interactive: false
