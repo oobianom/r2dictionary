@@ -7,7 +7,7 @@
 #'
 #' loadDictionary()
 #'
-#' @export
+#' @export 
 
 
 loadDictionary <- function(){
