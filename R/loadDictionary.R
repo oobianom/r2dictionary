@@ -15,3 +15,6 @@ loadDictionary <- function(){
   load(pkgpath,envir = .GlobalEnv)
   eval(parse(text=paste0('assign(".loadedDictionary",TRUE,envir = .GlobalEnv)')))
 }
+
+
+

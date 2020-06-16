@@ -43,7 +43,9 @@ define <- function(term,limitResult=5){
     gfh = .xxd[grep(paste0("(*)+(",tolower(chartofind),")+(*)"), tolower(.xxd$name)),]
     gfhrow = nrow(gfh)
     if(gfhrow){
+
       gfh = stats::aggregate(definition ~ name, data = gfh,concatAll)
+
       gfh$n = unlist(lapply(gfh$name,splitSpa12))
       gfh0 = gfh[gfh$n<(nchar(chartofind)+3),]
       if(nrow(gfh0)) gfh = gfh0
