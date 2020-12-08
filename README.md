@@ -4,5 +4,5 @@
 
 ## A short tutorial video
 
-![Tutorial for using mini-dictionary](http://coursewhiz.org/mainsite/videos/r2dictionary.gif) 
+![Tutorial for using mini-dictionary](http://coursewhiz.org/mainsite/videos/r2dictionary2.gif) 
 
