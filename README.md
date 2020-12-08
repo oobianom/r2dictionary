@@ -6,3 +6,12 @@
 
 ![Tutorial for using mini-dictionary](http://coursewhiz.org/mainsite/videos/r2dictionary2.gif) 
 
+## Other download sources
+
+ + CRAN -  [Link out](https://cran.r-project.org/web/packages/r2dictionary/index.html)
+ 
+## Where to find more information
+
+ + Source website -  [Link out](http://coursewhiz.org/mainsite/r2dictionary.htmlhttp://coursewhiz.org/mainsite/r2dictionary.html)
+
+ + CRAN introductory html-  [Link out](https://cran.r-project.org/web/packages/r2dictionary/vignettes/simple_samples.html)
