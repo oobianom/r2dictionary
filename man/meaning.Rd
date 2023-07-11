@@ -4,12 +4,14 @@
 \alias{meaning}
 \title{An alias to efine words in english}
 \usage{
-meaning(term, limitResult = 5)
+meaning(term, limitResult = 5, printResult = TRUE)
 }
 \arguments{
 \item{term}{The term for which the definition is requested}
 
 \item{limitResult}{The limit of how many results to show}
+
+\item{printResult}{Print the result to console. If set to FALSE, then results will be return in a vector}
 }
 \value{
 Definition of word if it exisits

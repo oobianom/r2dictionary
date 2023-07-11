@@ -4,15 +4,17 @@
 \alias{define}
 \title{Define words in english}
 \usage{
-define(term, limitResult = 5)
+define(term, limitResult = 5, printResult = TRUE)
 }
 \arguments{
 \item{term}{The term for which the definition is requested}
 
 \item{limitResult}{The limit of how many results to show}
+
+\item{printResult}{Print the result to console. If set to FALSE, then results will be return in a vector}
 }
 \value{
-Definition of word if it exisits
+Definition of word if it exists
 }
 \description{
 Given a word, a mini-dictionary is searched and results are retrieved with the relevant definitions
