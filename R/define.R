@@ -6,7 +6,7 @@
 #' @param limitResult The limit of how many results to show
 #' @param printResult Print the result to console. If set to FALSE, then results will be return in a vector
 #'
-#' @return Definition of word if it exisits
+#' @return Definition of word if it exists
 #'
 #' @examples
 #' \dontrun{
@@ -16,7 +16,7 @@
 #'
 #' @export
 
- 
+
 
 define <- function(term,limitResult=5,printResult=TRUE){
   chartofind = term
@@ -37,7 +37,7 @@ define <- function(term,limitResult=5,printResult=TRUE){
     if(ci==10)break;
   }
 
- 
+
 
   if(nchar(chartofind)<3) stop("The search term must contain more than three alphabets")
   chartofind.a = paste0(".dict76r56obi64.",toupper(substr(chartofind,1,1)))
@@ -75,14 +75,14 @@ define <- function(term,limitResult=5,printResult=TRUE){
 
     }else{
 
-      message(paste0("No results found for ",chartofind," with this r2dictionary version."))
+      message(paste0("No results found for ",chartofind," with this r2dictionary version. Download the github version"))
 
     }
   }
 
 }
 
- 
+
 
 #' An alias to efine words in english
 #'
