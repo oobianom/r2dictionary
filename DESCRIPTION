@@ -1,6 +1,6 @@
 Package: r2dictionary
 Type: Package
-Title: A Mini-Dictionary for 'R', 'Shiny' and 'Rmarkdown' Documents
+Title: A Mini-Dictionary for 'Shiny' and 'Rmarkdown' Documents
 Version: 0.2
 Authors@R: c(
     person("Obinna", "Obianom", email = "idonshayo@gmail.com", role = c("aut", "cre")))
