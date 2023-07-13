@@ -1,5 +1,6 @@
-#' Load the dictionary into the global environment
+#' Dictionary content loader
 #'
+#' Load the dictionary into global environment
 #'
 #' @return NULL
 #'
@@ -7,11 +8,11 @@
 #'
 #' loadDictionary()
 #'
-#' @export 
+#' @export
 
 
 loadDictionary <- function(){
-  pkgpath = system.file("dictionary_individual_hidden.ob",package = "r2dictionary")
+  pkgpath = system.file("complete.dic",package = "r2dictionary")
   load(pkgpath,envir = .GlobalEnv)
   eval(parse(text=paste0('assign(".loadedDictionary",TRUE,envir = .GlobalEnv)')))
 }

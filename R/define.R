@@ -84,7 +84,7 @@ define <- function(term,limitResult=5,printResult=TRUE){
 
 
 
-#' An alias to efine words in english
+#' An alias to define words in english
 #'
 #' Given a word, a mini-dictionary is searched and results are retrieved with the relevant definitions
 #'

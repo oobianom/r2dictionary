@@ -2,7 +2,7 @@
 % Please edit documentation in R/define.R
 \name{definition}
 \alias{definition}
-\title{An alias to efine words in english}
+\title{An alias to define words in english}
 \usage{
 definition(term, limitResult = 5, printResult = TRUE)
 }

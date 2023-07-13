@@ -1,16 +1,16 @@
 Package: r2dictionary
 Type: Package
-Title: A Mini-Dictionary for 'R', 'Shiny' and 'Rmarkdown' documents
+Title: A Mini-Dictionary for 'R', 'Shiny' and 'Rmarkdown' Documents
 Version: 0.2
 Authors@R: c(
     person("Obinna", "Obianom", email = "idonshayo@gmail.com", role = c("aut", "cre")))
 Maintainer: Obinna Obianom <idonshayo@gmail.com>
 Description: Despite the predominant use of R for data manipulation and various robust statistical calculations, in recent years, more people from various disciplines are beginning to use R for other purposes. A critical milestone that has enabled large influx of users in the R community is the development of the Tidyverse family of packages and Rmarkdown. With the latter, one can write all kinds of documents and produce output in formats such html and pdf very easily. In doing this seemlessly, further tools are needed for such users to easily and freely write in R for all kinds of purposes. The r2dictionary introduces a means for users to directly search for definitions of terms within the R environment.
 License: MIT + file LICENSE
-URL: https://github.com/oobianom/r2dictionary
+URL: https://r2dictionary.obi.obianom.com
 BugReports: https://github.com/oobianom/r2dictionary
 Depends: 
-    R (>= 3.4)
+    R (>= 3.6)
 Imports: 
     utils,
     stringr, 

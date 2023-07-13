@@ -2,12 +2,12 @@
 % Please edit documentation in R/loadDictionary.R
 \name{loadDictionary}
 \alias{loadDictionary}
-\title{Load the dictionary into the global environment}
+\title{Dictionary content loader}
 \usage{
 loadDictionary()
 }
 \description{
-Load the dictionary into the global environment
+Load the dictionary into global environment
 }
 \examples{
 
