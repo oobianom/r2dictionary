@@ -1,42 +1,10 @@
-# r2resize 1.7
-
-## Features
- 
- - [x] Added new argument to add.resizer() called 'default.image.width'. This argument allows the user to easily set a default for all the images on the page
-
-
-# r2resize 1.6
-
-## Features
-
-  - [x] elastiCard function for elastic image containers
+# r2dictionary 0.2
   
-  - [x] flexCard function for clickable image blocks
-  
-  - [x] splitCard2 function is another version of the splitCard
-  
-# r2resize 1.5
+  - Inclusion of option to return definitions as vector
 
-## Features
+# r2dictionary 0.1
 
-  - [X] Resolution to Quarto images with captions
-  
-# r2resize 1.4
-
-## Features
-
-  - [x] Bug fixes
-  
-# r2resize 1.3
-
-## Features
-
-  - [x] Resizable split screen container
-
-# r2resize 1.2
-
-## Features
-
-  - [x] Image and table resizing toolbar
-  
-  - [x] User enabled font-family and font-size change
+  - Initial release
+  - Under 5MB word pack, full pack in the Github repository
+  - Always print results, no option for returning as string
+  - Addins feature in RStudio to define highlighted words
