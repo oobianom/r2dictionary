@@ -75,7 +75,7 @@ define <- function(term,limitResult=5,printResult=TRUE){
 
     }else{
 
-      message(paste0("No results found for ",chartofind," with this r2dictionary version. Download the github version"))
+      message(paste0("No results found for ",chartofind," with this r2dictionary version. Download the github version to view the complete definition list using 'oobianom/r2dictionary'"))
 
     }
   }

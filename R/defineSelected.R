@@ -1,6 +1,6 @@
 #' Define Selected Text
 #'
-#' Detects a selected word in an open document. This was written for Rmarkdown writing, but it can be used for an open document.
+#' Detects a selected word in an open document. This was tested for Rmarkdown writing, but it can be used for an open document.
 #' Using the addin is the most preferred means to call this function, albeit it can be called directly from the console.
 #'
 #' @return definition of the selected text
